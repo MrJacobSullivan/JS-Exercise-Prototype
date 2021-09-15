@@ -102,10 +102,10 @@ Baby.prototype.play = function () {
 /* 
   TASK 4
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. `this` could be referring to the global window
+  2. `this` could be inplicitly referring to whatever the parent object is. This happens when a method is called.
+  3. `this` can be exlicitly referring to an object when we use the `call()` and `apply()` methods.
+  4. `this` could be referring to a new object we create when we use the `new` keyword.
 */
 
 ///////// END OF CHALLENGE /////////
